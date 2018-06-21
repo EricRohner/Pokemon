@@ -1,11 +1,12 @@
 import React, {Component} from 'react';
 import PokeAPI from './PokeAPI'
 
-class App extends Component {
+class Home extends Component {
     render() {
         return (
             <div>
-                <h1>Gen 1 starter Pokemon</h1>
+                <h1>Pokemon</h1>
+                <a href={'/AddPkmn'}>Add Pokemon</a>
                 <ul>
                     {
                         PokeAPI.all().map(p => (
@@ -20,4 +21,4 @@ class App extends Component {
     }
 }
 
-export default App;
+export default Home;
