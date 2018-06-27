@@ -2,6 +2,15 @@ import React, {Component} from 'react';
 import PokeAPI from './PokeAPI'
 
 class Home extends Component {
+
+    // state = {
+    //     pokemon: []
+    // }
+    //
+    // componentDidMount(){
+    //     this.state.pokemon = fetch('http://localHost:4000', {
+    // method: 'get'})}
+
     render() {
         return (
             <div>
